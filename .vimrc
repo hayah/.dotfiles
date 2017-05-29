@@ -60,6 +60,9 @@ set ttyfast " i got a fast terminal!
 set ttimeoutlen=250  " Make Esc work faster
 set updatetime=1500
 
+set foldmethod=syntax
+set nofoldenable
+
 set ignorecase " ignore case when searching
 set smartcase  " use smartcase, when search query starts with Uppercase,
 set hlsearch   " highlight search matches
@@ -102,6 +105,7 @@ imap ;; <esc>
 " nnoremap ; :
 nnoremap <leader>q :q<CR>
 nnoremap <leader>w :w<CR>
+nnoremap <leader>z za
 
 nnoremap <leader>ra :Rails
 nnoremap <leader>rg :Rgenerate
