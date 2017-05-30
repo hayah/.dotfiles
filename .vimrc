@@ -81,7 +81,7 @@ set mouse=a
 set showcmd
 :set cursorline
 set list " show trailing characters
-set listchars=tab:▸\ ,eol:¬,trail:·,extends:❯,precedes:❮,nbsp:~
+set listchars=tab:\|\ ,eol:¬,trail:·,extends:❯,precedes:❮,nbsp:~
 
 set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup//
