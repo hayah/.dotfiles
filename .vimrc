@@ -100,7 +100,7 @@ let mapleader = ' '
 map <C-n> :NERDTreeToggle<CR>
 runtime macros/matchit.vim
 
-imap ;; <esc>
+imap jj <esc>
 
 " nnoremap ; :
 nnoremap <leader>q :q<CR>
@@ -108,14 +108,24 @@ nnoremap <leader>w :w<CR>
 nnoremap <leader>z za
 
 nnoremap <leader>ra :Rails
-nnoremap <leader>rg :Rgenerate
+nnoremap <leader>re :Generate
 nnoremap <leader>rr :Rake
 nnoremap <leader>ri :Einitializer
-" routes leads to empty initializer path
 nnoremap <leader>ro :Einitializer<CR>
 nnoremap <leader>rv :Eview
+nnoremap <leader>rw :Eview<CR>
 nnoremap <leader>rc :Econtroller
+nnoremap <leader>rk :Econtroller<CR>
 nnoremap <leader>rm :Emodel
+nnoremap <leader>rg :Elib<CR>
+nnoremap <leader>rs :Espec<CR>
+nnoremap <leader>rp :Eenvironment<CR>
+nnoremap <leader>rf :Efixtures<CR>
+nnoremap <leader>rh :Ehelper<CR>
+nnoremap <leader>rl :Elayout<CR>
+nnoremap <leader>rd :Emigration<CR>
+nnoremap <leader>rt :Estylesheet<CR>
+nnoremap <leader>rz :Eschema<CR>
 
 "Tagbar toggle
 nmap <F3> :TagbarToggle<CR>
@@ -150,7 +160,7 @@ function! TrimWhiteSpace()
     call winrestview(l:save)
 endfunction
 
-nnoremap <silent> <Leader>rts :call TrimWhiteSpace()<CR>
+nnoremap <silent> <Leader>dts :call TrimWhiteSpace()<CR>
 "}}}
 
 " tmux fixes {{{
