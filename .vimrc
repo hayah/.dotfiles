@@ -221,12 +221,11 @@ inoremap <expr> k pumvisible() ? "\<C-P>" : "k"
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
 
-" Quicker window movement
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
-nnoremap <C-l> <C-w>l
-
+" Quicker buffer movement
+nnoremap <C-j> :bfirst<CR>
+nnoremap <C-h> :bprevious<CR>
+nnoremap <C-l> :bnext<CR>
+nnoremap <C-k> :blast<CR>
 
 "Autopaste {{{
 let &t_SI .= "\<Esc>[?2004h"
@@ -299,6 +298,7 @@ nmap <leader>7 <Plug>BufTabLine.Go(7)
 nmap <leader>8 <Plug>BufTabLine.Go(8)
 nmap <leader>9 <Plug>BufTabLine.Go(9)
 nmap <leader>0 :bd<CR>
+nmap <leader>- :%bd<CR>
 " }}}
 "sneak
 let g:sneak#use_ic_scs = 1
