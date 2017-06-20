@@ -14,8 +14,7 @@ Plugin 'tpope/vim-fugitive'              " git
 Plugin 'airblade/vim-gitgutter'          " git diff column
 Plugin 'ervandew/supertab'               " <Tab> completion
 Plugin 'scrooloose/syntastic'            " syntax checking
-Plugin 'justinmk/vim-sneak'              " better 'f'
-Plugin 'vim-scripts/tComment'
+Plugin 'tpope/vim-commentary'
 Plugin 'vim-airline/vim-airline'         "|
 Plugin 'vim-airline/vim-airline-themes'  "| airline
 Plugin 'ap/vim-buftabline'               " buffer tab
@@ -33,7 +32,11 @@ Plugin 'junegunn/vim-easy-align'
 Plugin 'gerw/vim-HiLinkTrace'            " shows highlighting groups
 Plugin 'danro/rename.vim'                " adds :Rename function
 Plugin 'jiangmiao/auto-pairs'            " auto-pairs
+Plugin 'tpope/vim-repeat'                " repeats plugin maps
+Plugin 'tpope/vim-rsi'                   " readline style insertion
+Plugin 'tpope/vim-eunuch'                " UNIX shell commands
 Plugin 'tpope/vim-surround'              " surroundings
+Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-endwise'               " adds end to def, if, etc
 Plugin 'tpope/vim-unimpaired'            " [q [e [f etc
 Plugin 'tpope/vim-rails'                 "|
