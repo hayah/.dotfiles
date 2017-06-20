@@ -110,25 +110,31 @@ nnoremap <leader>q :q<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>z za
 
+nnoremap <leader>a  :A<CR>
+nnoremap <leader>e  :E<CR>
+nnoremap <leader>m  :Emodel<CR>
+nnoremap <leader>v  :Eview<CR>
+nnoremap <leader>c  :Econtroller<CR>
 nnoremap <leader>ra :Rails
-nnoremap <leader>re :Generate
 nnoremap <leader>rr :Rake
-nnoremap <leader>ri :Einitializer
-nnoremap <leader>ro :Einitializer<CR>
-nnoremap <leader>rv :Eview
-nnoremap <leader>rw :Eview<CR>
-nnoremap <leader>rc :Econtroller
-nnoremap <leader>rk :Econtroller<CR>
+nnoremap <leader>re :Generate
 nnoremap <leader>rm :Emodel
-nnoremap <leader>rg :Elib<CR>
-nnoremap <leader>rs :Espec<CR>
-nnoremap <leader>rp :Eenvironment<CR>
+nnoremap <leader>rv :Eview
+nnoremap <leader>rc :Econtroller
+nnoremap <leader>rs :Espec
+nnoremap <leader>ri :Eintegrationtest<CR>
+nnoremap <leader>ru :Eunittest<CR>
+nnoremap <leader>rx :Efunctionaltest<CR>
+nnoremap <leader>rw :Emigration<CR>
+nnoremap <leader>rd :Eschema<CR>
 nnoremap <leader>rf :Efixtures<CR>
-nnoremap <leader>rh :Ehelper<CR>
 nnoremap <leader>rl :Elayout<CR>
-nnoremap <leader>rd :Emigration<CR>
-nnoremap <leader>rt :Estylesheet<CR>
-nnoremap <leader>rz :Eschema<CR>
+nnoremap <leader>ro :Einitializer<CR>
+nnoremap <leader>rg :Elib<CR>
+nnoremap <leader>rh :Ehelper<CR>
+nnoremap <leader>rn :Eenvironment
+nnoremap <leader>rz :Estylesheet
+nnoremap <leader>rj :Ejavascript<CR>
 
 "Tagbar toggle
 nmap <F3> :TagbarToggle<CR>
