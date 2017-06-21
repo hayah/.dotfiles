@@ -67,7 +67,6 @@ set nofoldenable
 
 set ignorecase " ignore case when searching
 set smartcase  " use smartcase, when search query starts with Uppercase,
-set hlsearch   " highlight search matches
 set incsearch  " search as you type
 set gdefault   " global matching is default
 "set showmatch " jump to matching bracket
