@@ -175,6 +175,8 @@ endfunction
 nnoremap <silent> <leader>dt :call TrimWhiteSpace()<CR>
 "}}}
 
+nnoremap <leader>dc :%s/^\s*#.*\n//g<CR>
+
 " tmux fixes {{{
 " Handle tmux $TERM quirks in vim
 if $TERM =~ '^screen-256color'
