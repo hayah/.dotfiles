@@ -58,7 +58,6 @@ let g:airline_theme='powerlineish'
 set background=dark
 set laststatus=2
 set clipboard=unnamedplus
-"set numberwidth=5
 set hidden
 set ttyfast " i got a fast terminal!
 set ttimeoutlen=250  " Make Esc work faster
@@ -71,7 +70,6 @@ set ignorecase " ignore case when searching
 set smartcase  " use smartcase, when search query starts with Uppercase,
 set incsearch  " search as you type
 set gdefault   " global matching is default
-"set showmatch " jump to matching bracket
 
 set expandtab " no real tabs!
 set tabstop=2 " real tabs should be 2, and they will show with set list on
@@ -90,7 +88,6 @@ set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup//
 set directory=~/.vim/.swp//
 
-set t_Co=256
 colorscheme monokai
 
 syntax on             " Enable syntax highlighting
@@ -107,7 +104,6 @@ runtime macros/matchit.vim
 
 imap jj <esc>
 
-" nnoremap ; :
 nnoremap <leader>q :q<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>z za
@@ -305,8 +301,6 @@ nmap <leader>8 <Plug>BufTabLine.Go(8)
 nmap <leader>0 :bd<CR>
 nmap <leader>- :%bd<CR>
 " }}}
-"sneak
-let g:sneak#use_ic_scs = 1
 
 "commentary
 nmap <c-_> gcc
@@ -320,5 +314,6 @@ noremap <Right> <NOP>
 "slim fix
 autocmd BufNewFile,BufRead *.slim set ft=slim
 
+" vim-surround
 autocmd Filetype eruby let g:surround_45 = "<% \r %>"
 autocmd Filetype eruby let g:surround_61 = "<%= \r %>"
