@@ -237,10 +237,9 @@ inoremap <expr> k pumvisible() ? "\<C-P>" : "k"
 nnoremap <leader><leader> <c-^>
 
 " Quicker buffer movement
-nnoremap <C-j> :bfirst<CR>
 nnoremap <C-h> :bprevious<CR>
 nnoremap <C-l> :bnext<CR>
-nnoremap <C-k> :blast<CR>
+nnoremap <leader>9 :blast<CR>
 
 "Autopaste {{{
 let &t_SI .= "\<Esc>[?2004h"
