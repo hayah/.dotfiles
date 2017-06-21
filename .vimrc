@@ -147,7 +147,7 @@ map <F4> :MRUToggle<CR>
 "Undotree toggle
 nnoremap <F5> :UndotreeToggle<CR>
 
-nmap <F6> :HLT<CR>
+nmap <leader>l <Plug>HiLinkTrace
 
 "Indent guides {{{
 let g:indent_guides_enable_on_vim_startup = 1
