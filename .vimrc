@@ -47,6 +47,7 @@ Plugin 'kchmck/vim-coffee-script'        "|
 Plugin 'slim-template/vim-slim.git'      "|
 Plugin 't9md/vim-ruby-xmpfilter'         " ruby code evalution
 Plugin 'jceb/vim-orgmode'
+Plugin 'ap/vim-css-color'
 " Plugin 'kmdsbng/vim-ruby-eval'
 call vundle#end()                        " required
 
