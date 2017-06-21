@@ -317,4 +317,6 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+"slim fix
+autocmd BufNewFile,BufRead *.slim set ft=slim
 
