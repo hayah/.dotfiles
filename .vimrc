@@ -320,3 +320,5 @@ noremap <Right> <NOP>
 "slim fix
 autocmd BufNewFile,BufRead *.slim set ft=slim
 
+autocmd Filetype eruby let g:surround_45 = "<% \r %>"
+autocmd Filetype eruby let g:surround_61 = "<%= \r %>"
