@@ -101,6 +101,8 @@ let mapleader = ' '
 
 
 map <C-n> :NERDTreeToggle<CR>
+map <leader>n :NERDTreeFind<cr>
+let g:NERDTreeQuitOnOpen = 1
 runtime macros/matchit.vim
 
 imap jj <esc>
