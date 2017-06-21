@@ -284,18 +284,6 @@ let g:tagbar_type_ruby = {
 \ }
 "}}}
 
-"Identify syntax highlighting {{{
-nmap <Leader>nc :call <SID>SynStack()<CR>
-
-function! <SID>SynStack()
-    if !exists("*synstack")
-        return
-    endif
-    " echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
-    echo synIDattr(synID(line('.'),col('.'),1),'name')
-endfunc
-"}}}
-
 "Startify {{{
 let g:startify_bookmarks = [ '~/.config', '~/projects', '~/projects/odin' ]
 "}}}
