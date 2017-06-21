@@ -26,6 +26,7 @@ Plugin 'mbbill/undotree'                 " history tree
 Plugin 'mhinz/vim-startify'              " start screen
 Plugin 'michaeljsmith/vim-indent-object' "|
 Plugin 'kana/vim-textobj-user'           "| new text objects
+Plugin 'kana/vim-textobj-line'
 Plugin 'nelstrom/vim-textobj-rubyblock'  "|
 Plugin 'nathanaelkane/vim-indent-guides' " visual indent levels
 Plugin 'junegunn/vim-easy-align'
