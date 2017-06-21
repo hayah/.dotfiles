@@ -200,9 +200,10 @@ nnoremap <leader>gd :Gdiff<cr>
 " CtrlP
 " {{{
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
-nnoremap <leader>pp :CtrlP<CR>
-nnoremap <leader>pv :CtrlPBuffer<CR>
-nnoremap <leader>pf :CtrlPDir<CR>
+nnoremap <leader>f :CtrlP<CR>
+nnoremap <leader>p :CtrlPBuffer<CR>
+let g:ctrlp_working_path_mode = 'a'
+let g:ctrlp_by_filename = 1
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)$',
   \ 'file': '\v\.(exe|so|dll|png|jpg)$'
