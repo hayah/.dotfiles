@@ -305,6 +305,10 @@ nmap <leader>- :%bd<CR>
 "sneak
 let g:sneak#use_ic_scs = 1
 
+"commentary
+nmap <c-_> gcc
+xmap <c-_> gcc
+
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
