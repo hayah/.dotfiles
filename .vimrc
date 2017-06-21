@@ -208,6 +208,10 @@ let g:ctrlp_custom_ignore = {
 " }}}
 
 "GitGutter {{{
+let g:gitgutter_map_keys = 0
+nmap <Leader>gh <Plug>GitGutterStageHunk
+nmap <c-k> <Plug>GitGutterPrevHunk
+nmap <c-j> <Plug>GitGutterNextHunk
 "let g:gitgutter_highlight_lines = 1
 let g:gitgutter_sign_column_always = 1
 let g:gitgutter_override_sign_column_highlight = 0
@@ -305,7 +309,6 @@ nmap <leader>5 <Plug>BufTabLine.Go(5)
 nmap <leader>6 <Plug>BufTabLine.Go(6)
 nmap <leader>7 <Plug>BufTabLine.Go(7)
 nmap <leader>8 <Plug>BufTabLine.Go(8)
-nmap <leader>9 <Plug>BufTabLine.Go(9)
 nmap <leader>0 :bd<CR>
 nmap <leader>- :%bd<CR>
 " }}}
