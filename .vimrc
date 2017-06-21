@@ -171,7 +171,7 @@ function! TrimWhiteSpace()
     call winrestview(l:save)
 endfunction
 
-nnoremap <silent> <Leader>dts :call TrimWhiteSpace()<CR>
+nnoremap <silent> <leader>dt :call TrimWhiteSpace()<CR>
 "}}}
 
 " tmux fixes {{{
