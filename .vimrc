@@ -144,8 +144,9 @@ let g:tagbar_autofocus = 1
 
 map <F4> :MRUToggle<CR>
 
-"Undotree toggle
-nnoremap <F5> :UndotreeToggle<CR>
+"Undotree
+nnoremap <leader>u :UndotreeToggle<CR>
+let g:undotree_SetFocusWhenToggle = 1
 
 nmap <leader>l <Plug>HiLinkTrace
 
