@@ -30,7 +30,6 @@ Plugin 'nelstrom/vim-textobj-rubyblock'  "|
 Plugin 'nathanaelkane/vim-indent-guides' " visual indent levels
 Plugin 'junegunn/vim-easy-align'
 Plugin 'gerw/vim-HiLinkTrace'            " shows highlighting groups
-Plugin 'danro/rename.vim'                " adds :Rename function
 Plugin 'jiangmiao/auto-pairs'            " auto-pairs
 Plugin 'tpope/vim-repeat'                " repeats plugin maps
 Plugin 'tpope/vim-rsi'                   " readline style insertion
